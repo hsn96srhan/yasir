@@ -44,17 +44,24 @@ export const PartnersPage: React.FC<PartnersPageProps> = ({ onOpenQuote }) => {
             {PARTNERS.map((partner) => (
               <div
                 key={partner.id}
-                className="p-6 rounded-xl border border-slate-200 bg-white hover:border-[#2563EB] shadow-xs hover:shadow-md transition-all flex flex-col items-center justify-center text-center group"
+                className="p-6 rounded-2xl border border-slate-200 bg-white hover:border-[#2563EB] shadow-xs hover:shadow-md transition-all flex flex-col items-center justify-between text-center group min-h-[170px]"
               >
-                <div className="w-12 h-12 rounded-full bg-slate-100 text-[#0A1128] group-hover:bg-[#2563EB] group-hover:text-white flex items-center justify-center font-mono font-extrabold text-sm mb-3 transition-colors">
-                  {partner.logoText.slice(0, 3)}
+                <div className="w-full h-16 flex items-center justify-center p-2 mb-2">
+                  <img
+                    src={partner.logo}
+                    alt={partner.name}
+                    className="max-h-12 max-w-full object-contain filter grayscale group-hover:grayscale-0 transition-all opacity-85 group-hover:opacity-100"
+                    loading="lazy"
+                  />
                 </div>
-                <h3 className="text-xs sm:text-sm font-bold text-[#0A1128] group-hover:text-[#2563EB] transition-colors">
-                  {partner.name}
-                </h3>
-                <span className="text-[10px] text-slate-400 mt-1">
-                  {partner.category}
-                </span>
+                <div>
+                  <h3 className="text-xs sm:text-sm font-bold text-[#0A1128] group-hover:text-[#2563EB] transition-colors">
+                    {partner.name}
+                  </h3>
+                  <span className="text-[10px] text-slate-400 mt-1 block">
+                    {partner.category}
+                  </span>
+                </div>
               </div>
             ))}
           </div>

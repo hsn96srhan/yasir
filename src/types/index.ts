@@ -35,6 +35,7 @@ export interface PartnerItem {
   name: string;
   category: string;
   logoText: string;
+  logo: string;
 }
 
 export interface ProjectShowcase {

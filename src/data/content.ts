@@ -195,12 +195,12 @@ export const PRODUCTS: ProductItem[] = [
 ];
 
 export const PARTNERS: PartnerItem[] = [
-  { id: '1', name: 'أرامكو السعودية', category: 'طاقة وصناعة', logoText: 'ARAMCO' },
-  { id: '2', name: 'مجموعة الراجحي', category: 'مصارف واستثمار', logoText: 'AL RAJHI' },
-  { id: '3', name: 'شركة الاتصالات STC', category: 'اتصالات وتقنية', logoText: 'stc' },
-  { id: '4', name: 'مجموعة الفوزان', category: 'تطوير وتجارة', logoText: 'AL FOZAN' },
-  { id: '5', name: 'المراعي', category: 'صناعات غذائية', logoText: 'ALMARAI' },
-  { id: '6', name: 'وزارة الثقافة', category: 'قطاع حكومي', logoText: 'MOC' },
+  { id: '1', name: 'أرامكو السعودية', category: 'طاقة وصناعة', logoText: 'ARAMCO', logo: './images/partners/aramco.png' },
+  { id: '2', name: 'الراجحي المالية', category: 'مصارف واستثمار', logoText: 'AL RAJHI', logo: './images/partners/alrajhi.png' },
+  { id: '3', name: 'شركة الاتصالات STC', category: 'اتصالات وتقنية', logoText: 'stc', logo: './images/partners/stc.jpeg' },
+  { id: '4', name: 'مجموعة الفوزان', category: 'تطوير وتجارة', logoText: 'AL FOZAN', logo: './images/partners/alfozan.png' },
+  { id: '5', name: 'شركة المراعي', category: 'صناعات غذائية', logoText: 'ALMARAI', logo: './images/partners/almarai.png' },
+  { id: '6', name: 'وزارة الثقافة', category: 'قطاع حكومي', logoText: 'MOC', logo: './images/partners/moc.png' },
 ];
 
 export const REVIEWS: ReviewItem[] = [

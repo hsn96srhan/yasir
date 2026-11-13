@@ -148,16 +148,19 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenQuote }) => {
               شركاء النجاح
             </span>
 
-            <div className="grid grid-cols-3 sm:grid-cols-6 gap-6 sm:gap-8 items-center w-full md:w-auto">
+            <div className="grid grid-cols-3 sm:grid-cols-6 gap-3 sm:gap-5 items-center w-full md:w-auto">
               {PARTNERS.map((partner) => (
                 <div
                   key={partner.id}
-                  className="flex items-center justify-center p-3 rounded-lg border border-slate-200/50 bg-white/60 hover:bg-white text-slate-500 hover:text-[#0A1128] transition-all"
+                  className="flex items-center justify-center h-16 px-3 rounded-xl border border-slate-200 bg-white hover:border-[#2563EB]/40 shadow-xs hover:shadow-sm transition-all group"
                   title={partner.name}
                 >
-                  <span className="font-mono font-extrabold text-xs tracking-wider text-center">
-                    {partner.logoText}
-                  </span>
+                  <img
+                    src={partner.logo}
+                    alt={partner.name}
+                    className="max-h-9 max-w-[90px] object-contain filter grayscale group-hover:grayscale-0 transition-all opacity-80 group-hover:opacity-100"
+                    loading="lazy"
+                  />
                 </div>
               ))}
             </div>
