@@ -124,7 +124,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenQuote }) => {
             <div className="relative">
               <div className="aspect-[4/3] w-full rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-100">
                 <img
-                  src="https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=1200&q=85"
+                  src="./images/hero.jpg"
                   alt="مطبوعات وهويات تجارية فاخرة مطبعة الأداء اليسير"
                   className="w-full h-full object-cover"
                 />
@@ -340,7 +340,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenQuote }) => {
             {/* Right: Real photo of printing press workshop */}
             <div className="aspect-[4/3] w-full rounded-2xl overflow-hidden border border-slate-700 bg-slate-900 shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=85"
+                src="./images/factory.jpg"
                 alt="خطوط إنتاج مطبعة الأداء اليسير"
                 className="w-full h-full object-cover"
               />

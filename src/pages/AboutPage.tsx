@@ -123,7 +123,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenQuote }) => {
 
             <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-100">
               <img
-                src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=85"
+                src="./images/workshop.jpg"
                 alt="ورش وخطوط إنتاج مطبعة الأداء اليسير"
                 className="w-full h-full object-cover"
               />
