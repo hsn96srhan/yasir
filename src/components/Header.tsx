@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, PhoneCall } from 'lucide-react';
 import { BRAND } from '../data/content';
+import logoImg from '../assets/logo.jpeg';
 
 interface HeaderProps {
   onOpenQuote: (serviceOrProduct?: string) => void;
@@ -26,9 +27,11 @@ export const Header: React.FC<HeaderProps> = ({ onOpenQuote }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
         {/* Right: Logo */}
         <Link to="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-lg bg-[#0A1128] text-white flex items-center justify-center font-bold text-lg tracking-wider shadow-sm group-hover:bg-[#2563EB] transition-colors">
-            يسير
-          </div>
+          <img
+            src={logoImg}
+            alt="شعار مطبعة الأداء اليسير"
+            className="w-11 h-11 object-contain rounded-lg border border-slate-200/80 shadow-xs group-hover:scale-105 transition-transform bg-white"
+          />
           <div className="flex flex-col">
             <span className="text-xl font-bold text-[#0A1128] tracking-tight group-hover:text-[#2563EB] transition-colors font-sans">
               {BRAND.name}

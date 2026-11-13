@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { X, Send, CheckCircle2 } from 'lucide-react';
 import { BRAND, SERVICES } from '../data/content';
+import logoImg from '../assets/logo.jpeg';
 
 interface QuoteModalProps {
   isOpen: boolean;
@@ -46,9 +47,11 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
         {/* Header */}
         <div className="bg-[#0A1128] text-white px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-md bg-[#2563EB] flex items-center justify-center text-xs font-bold">
-              يسير
-            </div>
+            <img
+              src={logoImg}
+              alt="شعار"
+              className="w-7 h-7 object-contain rounded-md bg-white p-0.5"
+            />
             <h3 className="font-bold text-base">اطلب تسعيرة سريعة</h3>
           </div>
           <button
