@@ -134,7 +134,6 @@ export const Footer: React.FC = () => {
 
         <div className="mt-12 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
           <p>© {new Date().getFullYear()} مطبعة الأداء اليسير. كافة الحقوق محفوظة.</p>
-          <p className="text-slate-400">تصميم وتطوير هندسي فائق الدقة</p>
         </div>
       </div>
     </footer>
