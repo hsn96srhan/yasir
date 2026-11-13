@@ -543,9 +543,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenQuote }) => {
                       <MapPin className="w-4 h-4" />
                     </div>
                     <div>
-                      <span className="text-slate-400 block text-[10px]">موقع المطبعة</span>
+                      <span className="text-slate-400 block text-[10px]">مقر المطبعة</span>
                       <span className="font-bold flex items-center gap-1">
-                        خرائط جوجل <ExternalLink className="w-3 h-3 text-slate-400" />
+                        الرياض — حي طويق، شارع أسماء بنت أبي بكر
+                        <ExternalLink className="w-3 h-3 text-slate-400" />
                       </span>
                     </div>
                   </a>

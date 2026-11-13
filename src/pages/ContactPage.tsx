@@ -84,10 +84,10 @@ export const ContactPage: React.FC = () => {
                   <div>
                     <span className="text-xs text-slate-500 block">مقر المطبعة والمعرض</span>
                     <h3 className="text-sm font-bold text-[#0A1128] leading-snug">
-                      المملكة العربية السعودية — الرياض
+                      الرياض — حي طويق
                     </h3>
-                    <p className="text-xs text-slate-500 mt-1">
-                      شارع الإنتاج الصناعي، منطقة المطابع الكبرى
+                    <p className="text-xs text-slate-600 mt-1 font-medium">
+                      شارع أسماء بنت أبي بكر
                     </p>
                   </div>
                 </div>

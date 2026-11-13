@@ -3,8 +3,14 @@ import type { ServiceItem, ProductItem, ReviewItem, FAQItem, PartnerItem, Projec
 export const BRAND = {
   name: 'الأداء اليسير',
   subname: 'مطبعة الأداء اليسير للطباعة والإعلان',
+  fullName: 'شركة الأداء اليسير الدولية للدعاية والإعلان',
   phone: '0566871640',
   phoneFormatted: '056 687 1640',
+  city: 'الرياض',
+  district: 'حي طويق',
+  street: 'شارع أسماء بنت أبي بكر',
+  address: 'الرياض — حي طويق، شارع أسماء بنت أبي بكر',
+  postalCode: '14921',
   whatsappUrl: (text?: string) => {
     const defaultText = 'مرحباً مطبعة الأداء اليسير، أرغب في طلب تسعيرة';
     return `https://wa.me/966566871640?text=${encodeURIComponent(text || defaultText)}`;
