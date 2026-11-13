@@ -9,7 +9,7 @@ export const BRAND = {
     const defaultText = 'مرحباً مطبعة الأداء اليسير، أرغب في طلب تسعيرة';
     return `https://wa.me/966566871640?text=${encodeURIComponent(text || defaultText)}`;
   },
-  mapsUrl: 'https://share.google/7kb6g5tQ5rd8HOhm0',
+  mapsUrl: 'https://maps.app.goo.gl/LeU5zSLpq5GB2UxbA',
 };
 
 // 7 exact services with realistic corporate & commercial images
